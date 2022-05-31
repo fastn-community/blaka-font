@@ -1,1 +1,44 @@
--- ds.page: hello
+-- import: fifthtry.github.io/package-doc/doc as pd
+-- import: fpm
+
+
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+-- ftd.column:
+width: fill
+padding-horizontal: 50
+padding-horizontal if $is-mobile: 20
+background-color: $fpm.color.main.background.base
+height: fill
+
+
+-- pd.package: blaka - fpm font
+name: fifthtry.github.io/blaka
+
+This component consist of Google blaka font with all it's styles from Thin-100 to Black-900 Italic.
+
+
+-- pd.component: blaka - fpm font
+name: https://github.com/FifthTry/blaka
+
+This component consist of Google blaka font with all it's styles from Thin-100 to Black-900 Italic.
+
+
+
+-- pd.hidden-code: How to use
+
+include fifthtry.github.io/blaka package into FPM.ftd file
+
+\-- fpm.dependency: fifthtry.github.io/blaka
+
+\-- fpm.auto-import: fifthtry.github.io/blaka as inter
+
+Inside your .ftd file to change for any specific token use:
+
+\-- fpm.type.headline-small.font: $inter.fonts.blaka
+
+\-- ftd.text:
+role: $fpm.type.headline-small

@@ -1,12 +1,25 @@
--- import: fpm
+-- import: fastn
 
--- fpm.package: fifthtry.github.io/blaka
-zip: github.com/fifthtry/blaka/archive/refs/heads/main.zip
+-- fastn.package: fifthtry.github.io/blaka
 
--- fpm.dependency: fifthtry.github.io/package-doc
+-- fastn.dependency: fifthtry.github.io/package-doc
+
+-- fastn.sitemap:
 
 
--- fpm.font: Blaka
+# Home: index.html
+
+- Custom Font: custom/
+
+# GitHub 
+  url: https://github.com/fifthtry/blaka
+
+
+
+
+
+
+-- fastn.font: Blaka
 style: normal
 weight: 400
 woff2: -/fifthtry.github.io/blaka/static/Blaka-400-normal-arabic.woff2
@@ -15,7 +28,7 @@ unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDF
 
 
 
--- fpm.font: Blaka
+-- fastn.font: Blaka
 style: normal
 weight: 400
 woff2: -/fifthtry.github.io/blaka/static/Blaka-400-normal-latin-ext.woff2
@@ -24,7 +37,7 @@ unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C
 
 
 
--- fpm.font: Blaka
+-- fastn.font: Blaka
 style: normal
 weight: 400
 woff2: -/fifthtry.github.io/blaka/static/Blaka-400-normal-latin.woff2

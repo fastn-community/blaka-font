@@ -1,44 +1,111 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
--- import: fpm
+-- import: fifthtry.github.io/package-doc/forest-theme as ds
+-- import: fifthtry.github.io/blaka/custom
+-- import: fifthtry.github.io/package-doc/footer
 
 
--- boolean is-mobile: false
-
--- is-mobile: true
-if: $ftd.device == mobile
-
--- ftd.column:
-width: fill
-padding-horizontal: 50
-padding-horizontal if $is-mobile: 20
-background-color: $fpm.color.main.background.base
-height: fill
 
 
--- pd.package: blaka - fpm font
+-- ds.page: 
+show-footer: true
+site-name: `blaka`
+
+-- ds.page.footer:
+
+-- footer.fastn-footer:
+
+-- end: ds.page.footer
+
+-- pd.package: blaka package
 name: fifthtry.github.io/blaka
 
-This component consist of Google blaka font with all it's styles from Thin-100 to Black-900 Italic.
+This FTD font `blaka` can be used for your ftd web projects. 
+
+To Use this blaka inside `FTD` project visit [blaka-typography](https://fifthtry.github.io/blaka-typography).
+
+-- ds.h3: blaka various sizes
+
+-- ftd.text: 
+role: $custom.blaka-size-12-400
+color: $inherited.colors.text-strong
+
+`font-size: 12px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
 
 
--- pd.component: blaka - fpm font
-name: https://github.com/FifthTry/blaka
+-- ftd.text: 
+role: $custom.blaka-size-12-800
+color: $inherited.colors.text-strong
 
-This component consist of Google blaka font with all it's styles from Thin-100 to Black-900 Italic.
+`font-size: 12px, font-weight: 500` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.blaka-size-12-800
+color: $inherited.colors.text-strong
+
+`font-size: 12px, font-weight: 800` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+
+-- ftd.text: 
+role: $custom.blaka-size-18-400
+color: $inherited.colors.text-strong
+
+`font-size: 18px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.blaka-size-18-500
+color: $inherited.colors.text-strong
+
+`font-size: 18px, font-weight: 500` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.blaka-size-18-800
+color: $inherited.colors.text-strong
+
+`font-size: 18px, font-weight: 800` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.blaka-size-48-400
+color: $inherited.colors.text-strong
+
+`font-size: 48px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.blaka-size-48-500
+color: $inherited.colors.text-strong
+
+`font-size: 48px, font-weight: 500` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text:
+role: $custom.blaka-size-48-800
+color: $inherited.colors.text-strong
+
+`font-size: 48px, font-weight: 800` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- end: ds.page
 
 
 
--- pd.hidden-code: How to use
 
-include fifthtry.github.io/blaka package into FPM.ftd file
 
-\-- fpm.dependency: fifthtry.github.io/blaka
 
-\-- fpm.auto-import: fifthtry.github.io/blaka as inter
 
-Inside your .ftd file to change for any specific token use:
 
-\-- fpm.type.headline-small.font: $inter.fonts.blaka
 
-\-- ftd.text:
-role: $fpm.type.headline-small

@@ -1,11 +1,11 @@
--- import: fifthtry.github.io/blaka/assets as blaka-assets
+-- import: fastn-community.github.io/blaka/assets as blaka-assets
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/forest-theme as ds
 -- import: fifthtry.github.io/package-doc/footer
 
 ;; ⚠️fastn-builders::⚠️ before using this file please find and replace Blaka
 ;; with font name you have given inside 
-;; `fifthtry.github.io/blaka/FASTN.ftd file
+;; `fastn-community.github.io/blaka/FASTN.ftd file
 
 
 
@@ -23,7 +23,7 @@ site-name: `blaka`
 -- end: ds.page.footer
 
 -- pd.package: FTD blaka package
-name: fifthtry.github.io/blaka
+name: fastn-community.github.io/blaka
 
 This FTD font `blaka` package is for your ftd web projects. To Use this
 blaka inside `FTD` project follow below instructions.
@@ -33,7 +33,7 @@ blaka inside `FTD` project follow below instructions.
 -- ds.code: Add this to your FASTN.ftd
 lang: ftd
 
-\-- fastn.dependency: fifthtry.github.io/blaka
+\-- fastn.dependency: fastn-community.github.io/blaka
 
 -- ds.markdown: 
 
@@ -46,7 +46,7 @@ To include blaka into your `ftd` file follow below instructions.
 -- ds.code:
 lang: ftd
 
-\-- import: fifthtry.github.io/blaka/assets as blaka-assets
+\-- import: fastn-community.github.io/blaka/assets as blaka-assets
 
 
 -- ds.h3: How to create a custom blaka type? 
@@ -54,11 +54,11 @@ lang: ftd
 -- ds.markdown: 
 
 We don't recommend creating custom types. We recommend to use 
-our [blaka-typography](https://fifthtry.github.io/blaka-typography)
+our [blaka-typography](https://fastn-community.github.io/blaka-typography)
 
-If you're using [blaka-typography](https://fifthtry.github.io/blaka-typography) 
+If you're using [blaka-typography](https://fastn-community.github.io/blaka-typography) 
 and still your designer has introduced new font size which are not included or 
-part of our [blaka-typography](https://fifthtry.github.io/blaka-typography) 
+part of our [blaka-typography](https://fastn-community.github.io/blaka-typography) 
 then only define custom types. 
 
 We hope you shouldn't need to define a custom type.

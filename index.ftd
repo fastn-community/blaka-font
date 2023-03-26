@@ -1,6 +1,6 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/forest-theme as ds
--- import: fifthtry.github.io/blaka/custom
+-- import: fastn-community.github.io/blaka/custom
 -- import: fifthtry.github.io/package-doc/footer
 
 
@@ -17,11 +17,11 @@ site-name: `blaka`
 -- end: ds.page.footer
 
 -- pd.package: blaka package
-name: fifthtry.github.io/blaka
+name: fastn-community.github.io/blaka
 
 This FTD font `blaka` can be used for your ftd web projects. 
 
-To Use this blaka inside `FTD` project visit [blaka-typography](https://fifthtry.github.io/blaka-typography).
+To Use this blaka inside `FTD` project visit [blaka-typography](https://fastn-community.github.io/blaka-typography).
 
 -- ds.h3: blaka various sizes
 

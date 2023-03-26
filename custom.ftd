@@ -116,7 +116,6 @@ color: $inherited.colors.text-strong
 
 
 
-
 -- ftd.type blaka-size-12-desktop:
 size.px: 12
 weight: 400

@@ -1,0 +1,46 @@
+{
+  "files": {
+    "FASTN.ftd": {
+      "name": "FASTN.ftd",
+      "checksum": "DD4F2E0EB885235339D012D08C3FA24F7AC5F13327D51A8903A066A5D74FB8C0",
+      "size": 1047
+    },
+    "LICENSE": {
+      "name": "LICENSE",
+      "checksum": "95A9632336410243B2147554EB1C5CC0FCA6C8DBED399E8F787FC84BD22F7C27",
+      "size": 4011
+    },
+    "README.md": {
+      "name": "README.md",
+      "checksum": "9022DB06B834198C4AA615FA61DB151476F11B76760C5B4FC74ECD9755789162",
+      "size": 1303
+    },
+    "custom.ftd": {
+      "name": "custom.ftd",
+      "checksum": "8AABB7BCDBDB119CAE240E817A112ED230E24FA0D293AB046629410D839EB7A2",
+      "size": 5473
+    },
+    "index.ftd": {
+      "name": "index.ftd",
+      "checksum": "41EA92D98F6A76BBAF88198B238EA4A709EB3191B5AC6AB4E5138DF8538A716E",
+      "size": 2204
+    },
+    "static/Blaka-400-normal-arabic.woff2": {
+      "name": "static/Blaka-400-normal-arabic.woff2",
+      "checksum": "7549EABF34CF845AA9D7C5675BCB23FD28C7821BABFF1D6C2AF5EDC111C2143C",
+      "size": 10108
+    },
+    "static/Blaka-400-normal-latin-ext.woff2": {
+      "name": "static/Blaka-400-normal-latin-ext.woff2",
+      "checksum": "459C850C5144CB7CF19E67A8F875B33AA61FFD6D35480E244BF64D675CA88EB2",
+      "size": 7248
+    },
+    "static/Blaka-400-normal-latin.woff2": {
+      "name": "static/Blaka-400-normal-latin.woff2",
+      "checksum": "CB669F22D90184C700C9213D21483DC1CF0EC7BA67080147D6A66423CFF943D6",
+      "size": 10988
+    }
+  },
+  "zip_url": "https://codeload.github.com/fastn-community/blaka-font/zip/refs/heads/main",
+  "checksum": "61A80D4281E3D33D48A1693D80041C9C085A270203C5BBEAF0CCA253A43328EA"
+}
